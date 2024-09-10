@@ -1,5 +1,6 @@
+#include "my_types.h"
 
-float vacuum_permeability()
+fp32 vacuum_permeability()
 {
     return 1.25663706127E-6f;
 }
