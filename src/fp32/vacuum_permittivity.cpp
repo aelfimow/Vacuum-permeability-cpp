@@ -2,5 +2,5 @@
 
 fp32 vacuum_permittivity()
 {
-    return 8.8541878128E-12f;
+    return 8.8541878188E-12f;
 }
