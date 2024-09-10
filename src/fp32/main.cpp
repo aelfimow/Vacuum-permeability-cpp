@@ -3,11 +3,11 @@
 #include <iostream>
 #include <iomanip>
 
-using fp32 = float;
-static_assert(sizeof(fp32) == 4U);
+#include "my_types.h"
 
 extern fp32 speed_of_light();
 extern fp32 vacuum_permittivity();
+extern fp32 vacuum_permeability();
 
 int main(int, char *[])
 {
