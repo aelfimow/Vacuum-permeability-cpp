@@ -1,5 +1,6 @@
+#include "my_types.h"
 
-float vacuum_permittivity()
+fp32 vacuum_permittivity()
 {
     return 8.8541878128E-12f;
 }
