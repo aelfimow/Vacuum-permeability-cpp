@@ -17,3 +17,4 @@ CXXFLAGS += -fext-numeric-literals
 export CXXFLAGS
 all:
 	${MAKE} -C fp32
+	${MAKE} -C fp64
