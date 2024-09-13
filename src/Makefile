@@ -13,6 +13,7 @@ CXXFLAGS += -Wdiv-by-zero
 CXXFLAGS += -Wfloat-conversion
 CXXFLAGS += -Wfloat-equal
 CXXFLAGS += -fext-numeric-literals
+CXXFLAGS += -g0
 
 export CXXFLAGS
 
