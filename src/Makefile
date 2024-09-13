@@ -15,6 +15,8 @@ CXXFLAGS += -Wfloat-equal
 CXXFLAGS += -fext-numeric-literals
 
 export CXXFLAGS
+
 all:
 	${MAKE} -C fp32
 	${MAKE} -C fp64
+	${MAKE} -C fp80
