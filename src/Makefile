@@ -20,11 +20,13 @@ export CXXFLAGS
 .PHONY: fp32
 .PHONY: fp64
 .PHONY: fp80
+.PHONY: fp128
 
-all: fp32 fp64 fp80
+all: fp32 fp64 fp80 fp128
 	cd fp32 && ./main.exe
 	cd fp64 && ./main.exe
 	cd fp80 && ./main.exe
+	cd fp128 && ./main.exe
 
 fp32:
 	${MAKE} -C fp32
@@ -34,3 +36,6 @@ fp64:
 
 fp80:
 	${MAKE} -C fp80
+
+fp128:
+	${MAKE} -C fp128
