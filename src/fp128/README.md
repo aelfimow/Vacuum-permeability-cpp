@@ -1,0 +1,14 @@
+# Computation of vacuum permeability using `__fp128`
+
+* Hard coded values (fp128):
+```
+    Speed of light: 2.997924580000000000000000000000000000e+08
+    Vacuum permittivity: 8.854187818799999999999999999999999455e-12
+    Vacuum permeability: 1.256637061270000000000000000000000052e-06
+```
+* Computed values (fp128):
+```
+    Speed of light: 2.997924579998211061563380107792637309e+08
+    Vacuum permittivity: 8.854187818789432958374090758826580794e-12
+    Vacuum permeability: 1.256637061268500264913411331540535874e-06
+```
